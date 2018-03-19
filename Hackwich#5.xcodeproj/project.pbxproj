@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FB001F720604AD1003991FC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FB001F620604AD1003991FC /* Property List.plist */; };
+		7FB001F92060528E003991FC /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB001F82060528E003991FC /* detailViewController.swift */; };
 		7FDA0D1520449A5B009CB147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA0D1420449A5B009CB147 /* AppDelegate.swift */; };
 		7FDA0D1720449A5B009CB147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA0D1620449A5B009CB147 /* ViewController.swift */; };
 		7FDA0D1A20449A5B009CB147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FDA0D1820449A5B009CB147 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FB001F620604AD1003991FC /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		7FB001F82060528E003991FC /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		7FDA0D1120449A5B009CB147 /* Hackwich#5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackwich#5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDA0D1420449A5B009CB147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FDA0D1620449A5B009CB147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				7FDA0D1420449A5B009CB147 /* AppDelegate.swift */,
 				7FDA0D1620449A5B009CB147 /* ViewController.swift */,
 				7FDA0D1820449A5B009CB147 /* Main.storyboard */,
+				7FB001F82060528E003991FC /* detailViewController.swift */,
+				7FB001F620604AD1003991FC /* Property List.plist */,
 				7FDA0D1B20449A5B009CB147 /* Assets.xcassets */,
 				7FDA0D1D20449A5B009CB147 /* LaunchScreen.storyboard */,
 				7FDA0D2020449A5B009CB147 /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				7FDA0D1F20449A5B009CB147 /* LaunchScreen.storyboard in Resources */,
 				7FDA0D1C20449A5B009CB147 /* Assets.xcassets in Resources */,
+				7FB001F720604AD1003991FC /* Property List.plist in Resources */,
 				7FDA0D1A20449A5B009CB147 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				7FDA0D1720449A5B009CB147 /* ViewController.swift in Sources */,
 				7FDA0D1520449A5B009CB147 /* AppDelegate.swift in Sources */,
+				7FB001F92060528E003991FC /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
